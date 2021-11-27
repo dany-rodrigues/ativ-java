@@ -1,2 +1,5 @@
-# ativ-java
-Primeiros passo em Java Aulas Recode Pro 10/2021
+# Primeio contato com Java
+
+Esse foi meus primeiros passos com a linguagem Java. 
+
+
