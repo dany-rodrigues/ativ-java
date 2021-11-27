@@ -1,0 +1,31 @@
+package exercicios;
+
+import java.util.Scanner;
+
+/* 4. As maçãs	custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
+dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
+programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
+valor	total	da	compra.*/
+
+public class ExerHelber4 {
+
+	public static void main(String[] args) 
+	
+	{
+		Scanner teclado = new Scanner (System.in);
+		
+		int frutaUnid; //
+	
+		System.out.println(" Digite quantidade de maçãs que o cliente está comprando");
+		frutaUnid = teclado.nextInt();
+		
+		teclado.close();                //ao declarar um valor usa-se (,) e não o siinal de +
+                                       //%.2f faz com que aparece apenas 2 casas decimais.
+		 if ( frutaUnid <= 11) {        
+		System.out.printf("Valor de " + frutaUnid +  " maçãs R$ %.2f " , (frutaUnid * 0.30));
+	} else {
+		System.out.printf("Valor de " + frutaUnid + " maçãs R$ %.2f " , (frutaUnid * 0.25));
+
+           }
+}
+}

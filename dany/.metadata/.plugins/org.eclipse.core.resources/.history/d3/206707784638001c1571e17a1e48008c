@@ -1,0 +1,34 @@
+package excursaoreveillon;
+
+public class Pagamento {
+	private int paguei;
+	 
+	 
+
+	public int getPaguei() {
+		return paguei;
+	}
+
+	public void setPaguei(int paguei) {
+		this.paguei = paguei;
+	}
+
+	public void efetuarpagamento() {
+		
+		if (paguei == 1) {
+			System.out.println(" ***BOLETO GERADO COM SUCESSO***");
+			System.out.println("R$ 1 900,00 Vencimento: 30/11/2021");
+			System.out.println("N° do boleto 09839302082983h2622627172021095254230112021190000");
+			
+		} else 
+		{if (paguei == 2) {
+			System.out.println("***DESCULPE! ESSA PROMOÇÃO REQUER PAGAMENTO AVISTA.***.");	
+		} else {
+			System.out.println("Opção inválida.");
+		}
+		
+	}
+	}
+	}
+
+

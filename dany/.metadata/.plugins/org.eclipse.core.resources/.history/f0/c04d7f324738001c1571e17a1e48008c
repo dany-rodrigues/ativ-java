@@ -1,0 +1,5 @@
+package excursaoreveillon;
+
+public @interface excusao {
+
+}
